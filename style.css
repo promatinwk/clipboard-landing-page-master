@@ -4,7 +4,201 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 10px;
+  font-size: 18px;
   font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+body #content {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body #content section {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+body #content h1 {
+  font-size: 1.9rem;
+  color: #4c545d;
+}
+
+body #content h2 {
+  font-size: 1.7rem;
+  color: #4c545d;
+}
+
+body #content h3 {
+  font-size: 1.5rem;
+  color: #4c545d;
+}
+
+body #content p {
+  color: #9fabb2;
+}
+
+body #content #intro {
+  height: 100vh;
+  background-image: url("./images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #content #intro .img_container {
+  -ms-flex-preferred-size: 40vh;
+      flex-basis: 40vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #content #intro .img_container img {
+  height: 45%;
+  width: auto;
+}
+
+body #content #intro .intro__headers {
+  text-align: center;
+  -ms-flex-preferred-size: 30vh;
+      flex-basis: 30vh;
+}
+
+body #content #intro .intro__headers p {
+  margin-top: 5%;
+}
+
+body #content #intro .intro__buttons {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #content #intro .intro__buttons button {
+  width: 90%;
+  margin: 3%;
+  -ms-flex-preferred-size: 40px;
+      flex-basis: 40px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}
+
+body #content #intro .intro__buttons .ios_btn {
+  background-color: #26baa4;
+  -webkit-box-shadow: 0px 3px 1px #1e8f7e;
+          box-shadow: 0px 3px 1px #1e8f7e;
+}
+
+body #content #intro .intro__buttons .mac_btn {
+  background-color: #6173ff;
+  -webkit-box-shadow: 0px 3px 1px #5161d6;
+          box-shadow: 0px 3px 1px #5161d6;
+}
+
+body #content #about {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #content #about h2 {
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+body #content #about p {
+  text-align: center;
+  line-height: 32px;
+}
+
+body #content #benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #content #benefits .benefits_img {
+  -ms-flex-preferred-size: 25vh;
+      flex-basis: 25vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20%;
+}
+
+body #content #benefits .benefits_img img {
+  height: 220px;
+  width: auto;
+}
+
+body #content #benefits .benefits__container {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #content #benefits .benefits__container div {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 /*# sourceMappingURL=style.css.map */
