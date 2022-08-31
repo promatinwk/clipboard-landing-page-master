@@ -212,5 +212,40 @@ body{
                 }
             }
         }
+        footer{
+            background-color: hsl(203, 35%, 93%);
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 7%;
+            padding-bottom: 7%;
+            .menu{
+                list-style: none;
+                text-align: center;
+                flex-basis: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+            
+            img{
+                width: 60px;
+                height: 60px;
+            }
+            .social-media{
+                width: 50%;
+                display: flex;
+                justify-content: space-around;
+                img{
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            .none-vis{
+                display: none;
+            }
+        }
     }
 }
