@@ -75,11 +75,11 @@ body{
                 }
                 .ios_btn{
                         background-color: hsl(171, 66%, 44%);
-                        box-shadow: 0px 3px 1px hsl(171, 65%, 34%);
+                        box-shadow: 0px 3px 5px hsl(171, 65%, 34%);
                     }
                 .mac_btn{
                     background-color:hsl(233, 100%, 69%);
-                    box-shadow: 0px 3px 1px hsl(233, 62%, 58%);
+                    box-shadow: 0px 3px 5px hsl(233, 62%, 58%);
                 }
             }
         }
@@ -109,6 +109,7 @@ body{
                 align-items: center;
                 justify-content: center;
                 margin-bottom: 20%;
+                
                 img{
                     height: 220px;
                     width: auto;
@@ -247,5 +248,85 @@ body{
                 display: none;
             }
         }
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    body{
+        #content{
+            h1{
+                font-size: 2.3rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+            #intro{
+            background-image: url('./images/bg-header-desktop.png');
+            .img_container{
+                img{
+                    height: 30%;
+                }
+            }
+            
+            .intro__headers{
+                width: 55%;
+                flex-basis: 15vh;
+             }
+             .intro__buttons{
+                flex-direction: row;
+                width: 100vw;
+                align-items: center;
+                justify-content: center;
+                flex-grow: 0;
+                button{
+                    flex-basis: 20%;
+                    height: 50px;
+                    margin: 3% 0.5% 3% 0.5%;
+                    
+                }
+            }
+            }
+            #about{
+                height: 28vh;
+                align-items: center;
+                h2{
+                    margin-bottom: 2%;
+                }
+                p{
+                    width: 60%;
+                }
+            }
+            #benefits{
+                height: 75vh;
+                flex-direction: row;
+                padding-left: 0;
+                .benefits_img{
+                    flex-grow: 1;
+                    height: 100%;
+                    img{
+                        margin-top: 25%;
+                        margin-left: -30%;
+                        width: 85%;
+                        height: auto;
+                        }
+                }
+                .benefits__container{
+                    align-self: flex-start;
+                    flex-basis: 40%;
+                    flex-grow: 0;
+                    height: 80%;
+                    div{
+                        width: 75%;
+                        text-align: left;
+                        p{
+                            
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
     }
 }
