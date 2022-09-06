@@ -257,9 +257,13 @@ body{
         #content{
             h1{
                 font-size: 2.3rem;
+                
             }
             p{
                 font-size: 1.1rem;
+            }
+            h2{
+                font-size: 2rem;
             }
             #intro{
             background-image: url('./images/bg-header-desktop.png');
@@ -319,12 +323,77 @@ body{
                     div{
                         width: 75%;
                         text-align: left;
-                        p{
-                            
-                        }
+                        
                     }
                     
                 }
+            }
+            #access{
+                height: 100vh;
+                align-items: center;
+                h2{
+                    flex-basis: 8vh;
+                }
+                p{
+                    width: 60%;
+                    font-size: 1.1rem;
+                    flex-basis: 15vh;
+                }
+                img{
+                    width: 70%;
+                    height: auto;
+                }
+            }
+            #possibilities{
+                height: 65vh;
+                .title{
+                    justify-content: center;
+                    margin-bottom: 8vh;
+                    h2{
+                        margin-bottom: 3vh;
+                        
+                    }
+                }
+                .possibilities__container{
+                    flex-direction: row;
+                    width: 90%; 
+                    margin: 0 auto;
+                    flex-grow: 0;
+                    justify-content: space-between;
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        flex-basis:30%;
+                        height: 30vh;
+                        flex-grow: 0;
+                        
+                        img{
+                            height: 45px;
+                            width: auto;
+                            margin: 0;
+                            
+                        }
+                        h4{
+                            margin-top: 5vh;
+                            font-size: 1.3rem;
+                        }
+                        p{
+                            margin: 0;
+                            flex-grow: 1;
+                            font-size: 0.9rem;
+                            
+                        }
+                    }
+                }
+            }
+            #co-ops{
+                height: 35vh;
+                flex-direction: row;
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 5vh;
             }
         }
         

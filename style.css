@@ -410,6 +410,9 @@ body #content footer .none-vis {
   body #content p {
     font-size: 1.1rem;
   }
+  body #content h2 {
+    font-size: 2rem;
+  }
   body #content #intro {
     background-image: url("./images/bg-header-desktop.png");
   }
@@ -488,6 +491,99 @@ body #content footer .none-vis {
   body #content #benefits .benefits__container div {
     width: 75%;
     text-align: left;
+  }
+  body #content #access {
+    height: 100vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #content #access h2 {
+    -ms-flex-preferred-size: 8vh;
+        flex-basis: 8vh;
+  }
+  body #content #access p {
+    width: 60%;
+    font-size: 1.1rem;
+    -ms-flex-preferred-size: 15vh;
+        flex-basis: 15vh;
+  }
+  body #content #access img {
+    width: 70%;
+    height: auto;
+  }
+  body #content #possibilities {
+    height: 65vh;
+  }
+  body #content #possibilities .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 8vh;
+  }
+  body #content #possibilities .title h2 {
+    margin-bottom: 3vh;
+  }
+  body #content #possibilities .possibilities__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body #content #possibilities .possibilities__container div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    height: 30vh;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+  body #content #possibilities .possibilities__container div img {
+    height: 45px;
+    width: auto;
+    margin: 0;
+  }
+  body #content #possibilities .possibilities__container div h4 {
+    margin-top: 5vh;
+    font-size: 1.3rem;
+  }
+  body #content #possibilities .possibilities__container div p {
+    margin: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    font-size: 0.9rem;
+  }
+  body #content #co-ops {
+    height: 35vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
